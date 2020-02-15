@@ -1,0 +1,27 @@
+.board{
+    display:flex;
+    padding:0px;
+    margin:0px;
+    flex-wrap: wrap;
+    width:378px;
+}
+.success{
+    padding: 5px 20px;
+    display: inline;
+    border-radius: 15px;
+    background: rgb(159, 255, 80);
+}
+.invalid{
+    background: rgb(255, 104, 104);
+    padding: 5px 20px;
+    display: inline;
+    border-radius: 15px;
+}
+
+.status{
+    display: inline;
+}
+button{
+    margin:10px;
+
+}
